@@ -8,7 +8,7 @@ import (
 	"github.com/astaxie/beego"
 )
 
-//初始化main  包
+//初始化main包
 func init() {
 	//重新载入配置
 	beego.LoadAppConfig("ini", "common/conf/app.conf")
