@@ -14,6 +14,7 @@ func init() {
 	beego.LoadAppConfig("ini", "common/conf/app.conf")
 	//初始化一些包
 	util.Uinit(dao.InitNeo4j)
+
 	//设置其他
 	beego.SetStaticPath("/", "static")
 }
