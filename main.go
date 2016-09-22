@@ -1,9 +1,9 @@
 package main
 
 import (
-	"TestBeeGo/common/dao"
-	_ "TestBeeGo/common/routers"
-	"TestBeeGo/common/util"
+	"github.com/ccyun/TestBeeGo/common/dao"
+	_ "github.com/ccyun/TestBeeGo/common/routers"
+	"github.com/ccyun/TestBeeGo/common/util"
 
 	"github.com/astaxie/beego"
 )
@@ -20,6 +20,5 @@ func init() {
 
 //入口
 func main() {
-
 	beego.Run()
 }

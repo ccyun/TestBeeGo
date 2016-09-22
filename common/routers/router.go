@@ -1,7 +1,7 @@
 package routers
 
 import (
-	admin "TestBeeGo/Application/Admin/controllers"
+	admin "github.com/ccyun/TestBeeGo/Application/Admin/controllers"
 
 	"github.com/astaxie/beego"
 )
